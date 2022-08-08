@@ -5,7 +5,6 @@ stages:
 image: node:lts
 
 before_script:
-  - docker image prune
   - npm install
 
 pages:
