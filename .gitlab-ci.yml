@@ -8,6 +8,9 @@ before_script:
 
 pages:
   stage: build
+  tags:
+    - build
+    - pages
   script:
     # Specify the steps involved to build your app here
     - npm run build
